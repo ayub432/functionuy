@@ -1,0 +1,162 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+}
+
+
+
+body {
+    background-color: #C4B5A5; 
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    margin-top: 50px;        
+}
+
+
+ul {
+    display: flex;
+    gap: 40px;        
+    align-items: center;
+}
+
+
+ul a {
+    font-size: 20px;             
+    color: #000000;              
+    transition: color 0.3s ease; 
+}
+
+ul a:hover {
+    color: #FF6600; 
+}
+
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto;    
+    width: 100%;      
+}
+
+.nav_left img{
+    width: 200px;
+}
+
+
+button {
+    padding: 17px 40px;                 
+    background-color: orange;   
+    border-radius: 60px;          
+    border: none;                
+    cursor: pointer;              
+    transition: 0.3s ease; 
+    font-size: 20px;
+}
+
+
+button:hover {
+    background-color: darkorange;
+}
+
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 150px;
+}
+
+
+.right_info h2{
+    font-size: 45px;
+}
+
+.right_info p{
+    font-size: 23px;
+}
+
+/* Default Light Mode */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #C4B5A5;
+    color: #000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button#dark-mode-toggle {
+    background-color: #FF6600;
+    color: #fff;
+}
+
+button.cta {
+    background-color: #FF6600;
+    color: white;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #000;
+    color: #fff;
+}
+
+body.dark-mode ul a {
+    color: #fff;
+}
+
+body.dark-mode button#dark-mode-toggle {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode button.cta {
+    background-color: #FF6600;
+    color: white;
+}
+
+
+.logo{
+    font-size: 70px;
+}
